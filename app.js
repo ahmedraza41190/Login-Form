@@ -14,7 +14,7 @@ function signup() {
     localStorage.setItem('email', email)
     localStorage.setItem('pass', pass)
     alert('Data inserted Successfully')
-    location.href = './signin.html'  //onclick to go on signin page
+    location.href = './index.html'  //onclick to go on signin page
     console.log(email)
 }
 
