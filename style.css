@@ -1,0 +1,164 @@
+body {
+    background-color: #fafafa;
+
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.left {
+    height: 600px;
+    width: 430px;
+    background-image: url(https://www.instagram.com/static/images/homepage/phones/home-phones.png/1dc085cdb87d.png);
+    background-repeat: no-repeat;
+    /* margin-top: 850px; */
+}
+
+.left-img {
+    position: relative;
+    top: 28px;
+    left: 155px;
+}
+
+.right {}
+
+.right-d1 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: stretch;
+    width: 350px;
+    background-color: white;
+    border: 1px solid rgb(219, 219, 219);
+    padding: 40px;
+    margin: 20px;
+}
+
+.right-img-1 {
+    padding: 0px 50px 0px 50px;
+}
+
+input {
+    /* all: unset; */
+    padding: 10px;
+    border: 1px solid rgb(219, 219, 219);
+    margin-top: 10px;
+}
+
+.right-button-1 {
+    background-color: rgb(65, 160, 224);
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+    border-radius: 5px;
+    padding: 10px;
+    border: solid 1px rgba(0, 149, 246, 0.3);
+
+}
+
+.right-d2 {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Line {
+    border-bottom: 1px solid rgb(3, 3, 3);
+    width: 135px;
+    height: 2px;
+    margin-top: 2px;
+}
+
+.OR {
+    margin-right: 20px;
+    margin-left: 20px;
+    color: rgb(3, 3, 3);
+}
+
+.right-d3 {
+    margin-top: 15px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.f.logo {
+
+    margin-right: 5px;
+
+}
+
+.right-d3 a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #021897;
+    padding: 10px;
+
+}
+
+.right-d4 {
+    margin: 15px;
+    text-align: center;
+}
+
+.right-d4 a {
+    text-decoration: none;
+    font-weight: 500;
+    color: #025fd2;
+    font-size: 12px;
+
+}
+
+.right-d1 .right-d5 {
+    position: relative;
+    border: 1px solid #b6b6b6;
+    border-radius: 2px;
+    width: 90%;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 10px;
+    /* padding: 15px; */
+    text-align: center;
+}
+
+.right-d5 a {
+    text-decoration: none;
+    margin-left: 5px;
+    color: #008aff;
+    font-weight: bold;
+
+}
+
+.footer {}
+
+ul {
+    display: flex;
+    padding: 10px;
+    margin-top: 50px;
+    justify-content: center;
+
+}
+
+li {
+    background-color: #fafafa;
+    color: rgb(36, 35, 35);
+    display: inline-block;
+    width: 80px;
+    height: 30px;
+    padding: 0%;
+    font-size: smaller;
+    text-align: center;
+}
+
+.li-1 {}
