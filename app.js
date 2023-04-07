@@ -13,9 +13,14 @@ function signup() {
     var pass = document.getElementById('spass').value
     localStorage.setItem('email', email)
     localStorage.setItem('pass', pass)
-    alert('Data inserted Successfully')
-    location.href = './index.html'  //onclick to go on signin page
-    console.log(email)
+    if(email == '' || pass == '' ){
+        alert('Please check your email & password and register your self')
+    }
+    else{
+        alert('Data inserted Successfully')
+        location.href = './index.html'  //onclick to go on signin page
+        console.log(email)
+    }
 }
 
 function signin() {
@@ -23,6 +28,9 @@ function signin() {
     var pass = document.getElementById('lpass').value
     var getemail = localStorage.getItem('email')
     var getpass = localStorage.getItem('pass')
+    if(email == '' || pass == '' ){
+        alert('Please check your email & password and register your self')
+    }else
     if (email === getemail && pass === getpass) {
         alert('Login Success')
         location.href = './welcome.html'
@@ -31,4 +39,5 @@ function signin() {
         alert('Please check your email & password and register your self')
         //  location.href = './signup.html'
     }
+
 }
